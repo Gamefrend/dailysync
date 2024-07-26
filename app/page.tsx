@@ -6,7 +6,7 @@ export default async function Home() {
     return (
         <>
             <div>Hello, World!</div>
-            <Link href="/a">Go to German Site</Link>
+            <Link href={"/a"}>Go to German Site</Link>
         </>
     );
 }
